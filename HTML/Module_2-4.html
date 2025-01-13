@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        p{
+            color: red;
+        }
+        /* ekshathe tag and selector use kora jai */
+        #fifth, li{
+            font-size: 26px;
+        }
+        /* ekshathe selector gulo combine kora holo */
+        .holud,.y2{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;  /* normal is 400 */
+        }
+        /* Attribute selector */
+        input[type="password"]{
+            font-size: 30px;
+            color: red;
+        }
+        /* small portion er jonno */
+        .c1{
+            color: blue;
+        }
+        .di{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p>My 1st <span class="c1">line in CSS</span></p>
+    <p class="y2">My 2nd line in CSS</p>
+    <p>My 3rd line in CSS</p>
+    <!-- 2 separate class in same element -->
+    <p class="y2 bold">My 4th line in CSS</p>
+    <!-- id 1 tar beshi use kora jai na -->
+    <p class="holud" id="fifth">My 5th line in CSS</p>
+    <p class="bold">My 6th line in CSS</p>
+    <p>My 7th line in CSS</p>
+    <ol>
+        <li>Element Selector</li>
+        <li>ID Selector</li>
+        <li class="bold holud">Class Selector</li>
+        <li>Universal Selector</li>
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password" name="PassWord" id="">
+    </form>
+
+    <div class="di">
+        <h3>My Blog</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit.</p>
+    </div>
+</body>
+</html>

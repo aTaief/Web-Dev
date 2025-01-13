@@ -1,0 +1,33 @@
+.v1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: aquamarine;
+    background-color: brown;
+    text-align: center;
+    text-decoration: overline;
+}
+li{
+    color: aquamarine;
+}
+.D2{
+    font-size: 10px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.v2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 10px blueviolet;
+
+}
+.j1{
+    border: 2px solid purple;
+    /* display: block; */
+    /* height: 200px; */
+    /* shudhu block thakle height kaj kore */
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
