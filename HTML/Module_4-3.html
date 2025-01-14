@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../CSS/Module_4-3.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <h2>Please fill out the form below:</h2>
+            <form>
+                <label for="name"> Name:
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </label>
+                <label for="email"> Email:
+                    <input type="text" id="email" name="email" placeholder="Your Email">
+                </label>
+                <label for="phone"> Phone:
+                    <input type="text" id="phone" name="phone" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>What is your favorite color?</legend>
+                    <label for="color">
+                        <input type="radio" id="red" name="color" value="red">Red
+                    </label>
+                    <label for="color">
+                        <input type="radio" name="color" id="blue" value="blue">Blue
+                    </label>
+                    <label for="color">
+                        <input type="radio" name="color" id="green" value="green">Green
+                    </label>
+                    <label for="color">
+                        <input type="radio" name="color" id="yellow" value="yellow">Yellow
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend> What is your favorite animal?</legend>
+                    <label for="animal">
+                        <input type="checkbox" name="animal" id="cow">Cow
+                    </label>
+                    <label for="animal">
+                        <input type="checkbox" name="animal" id="goat">Goat
+                    </label>
+                    <label for="animal">
+                        <input type="checkbox" name="animal" id="hen">Hen
+                    </label>
+                    <label for="animal">
+                        <input type="checkbox" name="animal" id="duck">Duck
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
