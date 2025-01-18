@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 1528px;
+    margin: 75px auto;
+}
+
+.image_box1{
+    max-width: 764px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image_box1 .image_box2{
+    width: 764px;
+}
+
+.image_box1 .image_box2 img{
+    width: 100%;
+}
+
+/*  */
+
+.writings{
+    max-width: 764px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.writings .head{
+    text-align: center;
+    margin: 0px 50px;
+}
+.writings .head .heading{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.writings .para{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.writings .follow{
+    margin: 40px 0px;
+    border: 2px solid rgb(170, 164, 164);
+    padding: 30px 290px 30px 290px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
