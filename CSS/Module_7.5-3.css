@@ -1,0 +1,44 @@
+.box{
+    position: relative;
+}
+
+.boy{
+    z-index: 2;
+}
+
+.ring{
+    top: -200px;
+    z-index: 1;
+}
+
+.water{
+    top: -290px;
+}
+
+h3::after{
+    content: '.pdf';
+    color: red;
+    font-size: 10px;
+    background-color: yellow;
+}
+
+h3::before{
+    content: 'My ';
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+p::first-line{
+    background-color: aquamarine;
+}
+
+::selection{
+    background-color: lightgreen;
+}
+
+input::placeholder{
+    color: blue;
+    text-align: center;
+}
