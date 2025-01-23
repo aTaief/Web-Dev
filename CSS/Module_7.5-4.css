@@ -1,0 +1,16 @@
+.btn{
+    height: 200px;
+    width: 400px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.btn:hover{
+    background-color: #3e8e41;
+    cursor: pointer;
+}
