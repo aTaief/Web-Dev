@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1528px;
+    height: 688px;
+}
+
+.mix{
+    display: block;
+    background-color: red;
+    margin: 10px 5px 10px 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.mix1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.orange{
+    margin: 10px 10px 5px 5px;
+    display: block;
+    background-color: orange;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.mix2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.purple{
+    margin: 5px 5px 10px 5px;
+    display: block;
+    background-color: purple;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.gray{
+    margin: 5px 10px 10px 5px;
+    display: block;
+    background-color: gray;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-height: 681px;
+    }
+
+    .mix{
+        display: block;
+        margin: 5px 10px 5px 10px;
+        height: 25%;
+    }
+
+    .mix1{
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .orange{
+        display: block;
+        margin: 5px 10px 5px 10px;
+        height: 25%;
+    }
+
+    .mix2{
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .purple{
+        display: block;
+        margin: 5px 10px 5px 10px;
+        height: 50%;
+    }
+
+    .gray{
+        display: block;
+        margin: 5px 10px 5px 10px;
+        height: 50%;
+    }
+}
