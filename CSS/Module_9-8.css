@@ -200,9 +200,10 @@ main section{
 
 }
 .skills_des{
-    margin: 30px auto 50px auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
     color: #757575;
-    
+    text-align: center;
 }
 
 /* Resume style */
@@ -327,17 +328,55 @@ footer textarea{
 
 @media screen and (max-width: 576px) {
     .skills_des{
-        width: 540px;
-        text-align: left;
+        width: 350px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .skills_container, .resume_container, footer{
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-content{
+        margin: 20px;
+    }
+    .banner_description{
+        width: 350px;
+    }
+    .header{
+        background-image: none;
+    }
+    .ppic{
+        width: 100%;
+    }
+    nav, nav ul{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 20px;
+    }
+
+    .btn{
+        margin-bottom: 20px;
+    }
+    .btn2{
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .skills_container, 
+    .resume_container, 
+    footer, 
+    .about_items{
         flex-direction: column;
         margin: 0 20px;
     }
     .footer_column{
         width: 100%;
     }
-    footer{
+    footer, .about{
         padding: 20px;
     }
     footer input[type="text"], footer input[type="email"], textarea{
@@ -346,4 +385,68 @@ footer textarea{
     footer textarea{
         padding: 0;
     }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .skills_des{
+        width: 350px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-content{
+        margin: 20px;
+    }
+    .banner_description{
+        width: 350px;
+    }
+    .header{
+        background-image: none;
+    }
+    .ppic{
+        width: 100%;
+    }
+    nav, nav ul{
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 20px;
+    }
+
+    .btn{
+        margin-bottom: 20px;
+    }
+    .btn2{
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .skills_container, 
+    .resume_container, 
+    footer, 
+    .about_items{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .footer_column{
+        width: 100%;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    footer input[type="text"], footer input[type="email"], textarea{
+        width: calc(100% - 40px);
+    }
+    footer textarea{
+        padding: 0;
+    }
+
 }
