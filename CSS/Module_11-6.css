@@ -1,0 +1,25 @@
+/* .field{
+    border: 1px solid steelblue;
+} */
+.bat{
+    transition: transform 0.2s;
+}
+
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 648px;
+    transition: transform 0.2s ease-out 0.3s;
+}
+
+.field:hover .ball{
+    transform: translateX(800px) translateY(-500px);
+}
