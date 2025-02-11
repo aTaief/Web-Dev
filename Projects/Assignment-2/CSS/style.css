@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand_font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway_font {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared style */
+/* body{
+    
+} */
+
+
+
+
+
+
+
+
+
+
+/* Header section */
+
+.nav{
+    margin: 1.388% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_head{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.nav_heading{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+/* .nav_section{
+
+} */
+.nav_section ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav_section > ul > li > a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav_part1{
+    font-weight: 700;
+    color: orange;
+}
+.nav_part2{
+    color: #01ACFD;
+}
+.nav_part3{
+    color: #05D4DF;
+}
+.nav_part4{
+    color: #5D58EF;
+}
+
+
+.nav_contact_btn{
+    width: 197px;
+    height: 48px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+.nav_contact_btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(255, 192, 74);
+}
+
+
+/* Heading */
+
+.heading{
+    display: flex;
+    margin: 0px 8%;
+    gap: 30px;
+    align-items: center;
+}
+
+.heading_parts{
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    max-height: 331px;
+}
+
+.heading_parts_headline{
+    display: block;
+    width: 640px;
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 3.5rem;
+}
+.emp{
+    color: orange;
+}
+.tv{
+    color: #01ACFD;
+}
+.heading_parts_subheading{
+    margin: 24px 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.heading_parts_btn1{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+.heading_parts_btn1:hover{
+    cursor: pointer;
+    background-color: rgb(109, 109, 109);
+}
+
+
+
+
+/* Main style */
+/* Standard Curriculum style */
+
+.standard_section{
+    /* display: block; */
+    background-image: url("assets/bg.png");
+    /* width: 100%; */
+    /* height: 879px; */
+}
+
+.standard_section_headline{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8%;
+}
+
+.standard_heading{
+    display: block;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin: 60px auto;
+    margin-bottom: 80px;
+}
+
+.standard_parts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.standard_part{
+    width: 362px;
+    height: 476.78px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0,0,0,0.05), 0px 0px 50px 0.5px rgba(0,0,0,0.05);
+}
+.sp1{
+    border: 2px solid #DEF5FF;
+    background-image: linear-gradient(rgba(222, 245, 255, 0.8), white, white , white );
+
+}
+.sp2{
+    border: 2px solid #FFF4DC;
+    background-image: linear-gradient(rgba(255, 244, 220, 0.8), white, white , white );
+
+}
+.sp3{
+    border: 2px solid #F2E8FF;
+    background-image: linear-gradient(rgba(238, 225, 255, 0.8), white, white , white );
+
+}
+
+.standard_part_img{
+    margin: 32px auto;
+    margin-top: 53px;
+    width: 136px;
+}
+
+.standard_part_head{
+    margin: 0 auto;
+    margin-bottom: 33.5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #202020;
+}
+
+.standard_part_subhead{
+    width: 286px;
+    margin: 0 auto;
+    margin-bottom: 34px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #808080;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.standard_part_button{
+    margin: 0 auto;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 23.8px;
+}
+.standard_part_button:hover{
+    cursor: pointer;
+}
+.spb1{
+    color: #64C8FF;
+}
+.spb2{
+    color: #F0AA00;
+}
+.spb3{
+    color: #8700FF;
+}
+
+.standard_circle{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+.standard_circle1{
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
