@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins_font {
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Shared style */
+
+.color1{
+    color: #3A3A3A;
+}
+
+
+
+
+/* header style */
+/* nav style */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 6.11% 8.33% 4.027% 8.33%;
+}
+.nav_header{
+    font-size: 1.45rem;
+    font-weight: 700;
+
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    
+}
+.nav_list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav_icon{
+    display: flex;
+}
+
+
+/* heading part style */
+
+.head_heading{
+    display: flex;
+    margin: 0 9.16% 0 8.40277%;
+}
+/* .head_writing{
+    width: 582px;
+} */
+
+.head_writing_header{
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin: 7.22% 0 1.111% 0px;
+    line-height: 5.25rem;
+}
+
+.head_writing_subheader{
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin: 0 14.444% 1.111% 0px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head_pic{
+    background-image: url("../images/Circle\ design.svg");
+    
+}
+.head_pic img{
+    width: 440px;
+}

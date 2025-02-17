@@ -1,0 +1,25 @@
+
+*{
+    color: gold !important;
+}
+
+#myHeading{
+    color: blue;
+}
+.purple{
+    color: purple;
+}
+
+h3{
+    color: #000000;
+    color: pink;
+}
+
+h3{
+    color: olive;
+}
+
+/* 
+Priority
+* < h3 <.purple(Class) < #myHeading(ID) < Inline CSS < !important
+*/
