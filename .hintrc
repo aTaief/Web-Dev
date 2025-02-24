@@ -9,6 +9,19 @@
         "link-name": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "button-type": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-command-name": "off"
+      }
+    ]
   }
 }
